@@ -98,7 +98,7 @@ public class OnlineExam {
         for (int i = 0; i < questions.length; i++) {
             long elapsed = (System.currentTimeMillis() - startTime) / 1000;
             if (elapsed >= timeLimit) {
-                System.out.println("\n⏰ Time is up! Auto-submitting...");
+                System.out.println("\n Time is up! Auto-submitting...");
                 break;
             }
 
